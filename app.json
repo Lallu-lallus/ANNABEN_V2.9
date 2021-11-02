@@ -21,7 +21,7 @@
         },
         "BOT_NAME": {
             "description": "Enter Your Bot Name From @BotFather",
-            "value": "DonLee_Robot"
+            "value": "AnnaBen_Robot"
         },
         "BOT_TOKEN": {
             "description": "Your Bot Token From @BotFather",
