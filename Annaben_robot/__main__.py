@@ -6,6 +6,6 @@
 # All rights reserved by PR0FESS0R-99
 # License -> https://github.com/PR0FESS0R-99/DonLee_Robot/blob/main/LICENSE
 
-from .donlee_robot import DonLee_Robot
-app = DonLee_Robot()
+from .Annaben_robot import Annaben_robot
+app = Annaben_robot()
 app.run()
