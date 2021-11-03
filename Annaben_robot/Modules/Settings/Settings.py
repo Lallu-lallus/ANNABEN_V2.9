@@ -9,7 +9,7 @@ from pyrogram import filters
 from pyrogram import Client as DonLee_Robot
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from DonLee_Robot import VERIFY # pylint: disable=import-error
+from Annaben_robot import VERIFY # pylint: disable=import-error
 
 @DonLee_Robot.on_message(filters.command(["settings"]) & filters.group, group=1)
 async def settings(bot, update):
