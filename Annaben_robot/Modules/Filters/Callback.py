@@ -12,12 +12,12 @@ import asyncio
 from pyrogram import Client, filters
 from pyrogram.errors import FloodWait, UserNotParticipant
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
-from Annaben_Robot.Annaben_robot import Annaben_Robot
-from Annaben_Robot import start_uptime, Translation, VERIFY
-from Annaben_Robot.Modules.Filters import FIND, INVITE_LINK, ACTIVE_CHATS, recacher, gen_invite_links
-from Annaben_Robot.Modules.Settings import remove_emoji
-from Annaben_Robot.Modules.Filters import Database 
-from Annaben_Robot.Modules import DEPLOY, HEROKU
+from Annaben_robot.Annaben_robot import Annaben_robot
+from Annaben_robot import start_uptime, Translation, VERIFY
+from Annaben_robot.Modules.Filters import FIND, INVITE_LINK, ACTIVE_CHATS, recacher, gen_invite_links
+from Annaben_robot.Modules.Settings import remove_emoji
+from Annaben_robot.Modules.Filters import Database 
+from Annaben_robot.Modules import DEPLOY, HEROKU
 db = Database()
 
 @DonLee_Robot.on_callback_query(filters.regex(r"navigate\((.+)\)"), group=2)
