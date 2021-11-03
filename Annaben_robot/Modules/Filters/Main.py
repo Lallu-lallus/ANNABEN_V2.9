@@ -5,7 +5,7 @@
 # License -> https://github.com/PR0FESS0R-99/DonLee_Robot/blob/main/LICENSE
 
 import motor.motor_asyncio # pylint: disable=import-error
-from DonLee_Robot.Simple_Config import Mo_Tech_YT
+from Annaben_robot.Simple_Config import Mo_Tech_YT
 
 class Database:
 
