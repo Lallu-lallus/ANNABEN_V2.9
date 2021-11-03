@@ -10,9 +10,9 @@ import asyncio
 from pyrogram import Client, filters
 from pyrogram.errors import UserAlreadyParticipant, FloodWait
 
-from Annaben_Robot import VERIFY
-from Annaben_Robot.Annaben_robot import Annaben_Robot
-from Annaben_Robot.Modules.Filters import Database, recacher
+from Annaben_robot import VERIFY
+from Annaben_robot.Annaben_robot import Annaben_robot
+from Annaben_robot.Modules.Filters import Database, recacher
 
 db = Database()
 
