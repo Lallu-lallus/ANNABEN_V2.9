@@ -21,7 +21,7 @@ class Annaben_robot(Client):
             api_hash=API_HASH,
             api_id=APP_ID,
             plugins={
-                "root": "Annaben_robot/Plugins"
+                "root": "Annaben_robot/Modules"
             },
             workers=200,
             bot_token=BOT_TOKEN,
