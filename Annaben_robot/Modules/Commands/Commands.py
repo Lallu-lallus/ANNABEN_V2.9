@@ -8,10 +8,10 @@
 from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 from pyrogram.errors import UserNotParticipant
-from Annaben_Robot import Translation, LOGGER, Mo_Tech_YT
-from Annaben_Robot.Modules.Filters import Database
-from Annaben_Robot.Annaben_robot import Annaben_Robot
-from Annaben_Robot.Modules import DEPLOY, HEROKU
+from Annaben_robot import Translation, LOGGER, Mo_Tech_YT
+from Annaben_robot.Modules.Filters import Database
+from Annaben_robot.Annaben_robot import Annaben_robot
+from Annaben_robot.Modules import DEPLOY, HEROKU
 db = Database()
 
 @DonLee_Robot.on_message(filters.command(["start"]) & filters.private, group=1)
