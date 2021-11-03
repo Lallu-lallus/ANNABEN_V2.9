@@ -13,9 +13,9 @@ from time import time
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 from pyrogram.errors import ButtonDataInvalid, FloodWait
-from Annaben_Robot.Modules.Filters.Main import Database 
-from Annaben_Robot.Annaben_robot import Annaben_Robot
-from DonLee_Robot import Translation, Mo_Tech_YT
+from Annaben_robot.Modules.Filters.Main import Database 
+from Annaben_robot.Annaben_robot import Annaben_robot
+from DonLee_robot import Translation, Mo_Tech_YT
 import imdb
 
 FIND = {}
