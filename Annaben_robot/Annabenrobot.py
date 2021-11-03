@@ -11,7 +11,7 @@ from . import API_HASH, APP_ID, LOGGER, BOT_TOKEN
 
 from .User import User
 
-class DonLee_Robot(Client):
+class Annaben_robot(Client):
     USER: User = None
     USER_ID: int = None
 
